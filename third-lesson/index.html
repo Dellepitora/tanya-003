@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form class="form" action="http://maximumstart.herokuapp.com/register" method="GET">
+		<h1>Регистрация</h1>
+		<p>
+		<label for="name">Имя</label>
+		<input type="name" id="name" name="name">
+	</p>
+
+	<p>
+		<label for="surname">Фамилия</label>
+		<input type="surname" id="surname" name="surname">
+	</p>
+
+	<p>
+		<label for="phone">Телефон</label>
+		<input type="phone" id="phone" name="phone">
+	</p>
+
+	<p>
+		<label for="date">Сегодняшнее число</label>
+		<input type="date" id="date" name="date">
+	</p>
+	
+	<p>
+		<label for="color">Любимый цвет</label>
+		<input type="color" name="color" id="color">
+	</p>
+
+	<p>
+		<label for="password">Пароль</label>
+		<input type="password" id="password" name="password">
+	</p>
+
+	<label for="gender">Мальчик</label>	
+	<input type="radio" name="gender" id="gender" value="Мальчик">
+
+	<label for="gender">Девочка</label>
+	<input type="radio" name="gender" id="gender" value="Девочка">
+
+    <label for="gender">Не определился</label>
+    <input type="radio" name="gender" id="gender" value="Не опредилился">
+
+    <p>
+    <b><label for="message">Сообщение</label></b>
+    <br>
+    <br>
+    <textarea  id="message" name='message' cols="30" rows="10"></textarea>
+    </p>
+    <button>Отправить</button>
+	</form>
+	
+</body>
+</html>
