@@ -3,7 +3,6 @@
 * Студент:  Vasilisa Berger.
 * Наставник: Паша Князевич.
 * [Мой аккаунт](https://htmlacademy.ru/profile/id700413)
-
 ---
 ### Памятка
 
